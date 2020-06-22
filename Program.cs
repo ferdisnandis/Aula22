@@ -6,7 +6,13 @@ namespace Aula22
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            System.Console.WriteLine("Converção de dólar: ");
+            Console.WriteLine( Conversor.ConverterRealParaDolar(50) );
+            Console.WriteLine( Conversor.ConverterDolarParaReal(50) );
+
+            System.Console.WriteLine("Conversão de euro: ");
+            Console.WriteLine( Conversor.ConverterRealParaEuro(50) );
+            Console.WriteLine( Conversor.ConverterEuroParaReal(50) );
         }
     }
 }
